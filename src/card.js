@@ -1,15 +1,13 @@
 import logo from './logo.svg';
-import Image from './image.js';
-import Description from './description.js';
+import Image_Carousel from './Image_Carousel.js';
+import Description from './Description.js';
 function Card(prop){
     //replace home with heart, put to top right of img
 return(
     <div className="card">
          <img src={logo} className="favorite"></img>
-        <Image/>
+        <Image_Carousel/>
         <Description />
-       
-
     </div>
 );
 }

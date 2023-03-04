@@ -1,4 +1,4 @@
-function Image(){
+function Image_Carousel(){
     return(
         <div className="image-container">
             <img src="images\home-exterior.jpg" className="location-img"></img>
@@ -6,4 +6,4 @@ function Image(){
     );
 }
 
-export default Image;
+export default Image_Carousel;
